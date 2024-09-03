@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0036BD;
+    padding: 20px 0;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+.signup-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; /* Add some space between the nav bar and the form */
+}
+
+.signup-form input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.signup-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #444;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width if necessary */
+    height: 100px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 30px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+  background-color: #0036BD;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.product-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product {
+  margin: 20px;
+  width: 250px; /* adjust the width of each product container */
+}
+
+.product img {
+  width: 100%; 
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Media query for small screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .product {
+    width: 150px; /* adjust the width of each product container for small screens */
+    margin: 10px; /* adjust the margin between product containers for small screens */
+  }
+}
+
+/* Media query for large screens (min-width: 992px) */
+@media only screen and (min-width: 992px) {
+  /* no changes needed for large screens */
+}
+
+/* Media query for medium screens (min-width: 768px) and (max-width: 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product {
+    width: 200px; /* adjust the width of each product container for medium screens */
+    margin: 15px; /* adjust the margin between product containers for medium screens */
+  }
+}
+
+.trail-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.beginner {
+  background-color: #6893ff;
+  color: #fff;
+}
+
+.intermediate {
+  background-color: #6893ff;
+  color: #fff;
+}
+
+.extreme {
+  background-color: #6893ff;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+figure {
+  margin: 20px; /* add some space around the image */
+}
+
+img {
+  width: 60%; /* make the image responsive */
+  height: auto;
+  border-radius: 10px; /* add a slight border radius */
+}
+
+
